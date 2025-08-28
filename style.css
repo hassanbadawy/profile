@@ -125,6 +125,12 @@
   top: 0;
 }
 
+/* Page Break for Work Experience */
+
+#vue-smart-pages-preview .page-break {
+  page-break-before: always;
+}
+
 /* Dark & print mode */
 
 .dark #vue-smart-pages-preview {
@@ -140,5 +146,9 @@
 
   .dark #vue-smart-pages-preview a {
     color: black !important;
+  }
+
+  #vue-smart-pages-preview .page-break {
+    page-break-before: always;
   }
 }
